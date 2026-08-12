@@ -1,6 +1,6 @@
 # PostFace
 Flow-Guided Adversarial Face Editing for Postable Social Photo Privacy
-![](./FLUX_Guard/src/image.PNG)
+
 # Authors
 Jie Wang (Beijing University of Posts and Telecommunications-WangJie2023@bupt.edu.cn), Tao Wang (Nanjing University of Aeronautics and Astronautics-wangtao21@nuaa.edu.cn), Ru Zhang (Beijing University of Posts and Telecommunications-zhangru@bupt.edu.cn)
 ![](./FLUX_Guard/src/image.PNG)
