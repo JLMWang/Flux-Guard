@@ -1,5 +1,6 @@
-# Flux-Guard
-Flux-Guard: Flow-Guided Adversarial Face Editing for Identity Privacy Protection
+# Postface
+Flow-Guided Adversarial Face Editing for Postable Social Photo Privacy
+Jie Wang (Beijing University of Posts and Telecommunications), Tao Wang (Nanjing University of Aeronautics and Astronautics), Ru Zhang (Beijing University of Posts and Telecommunications), et al.
 ![](./FLUX_Guard/src/image.PNG)
 # Abstract
 The widespread deployment of face recognition (FR) systems exposes personal images shared on social media and public platforms to identity linkage and privacy risks. Existing adversarial privacy protection methods can degrade unauthorized FR performance but are not compatible with generative face editing. Artificial intelligence-driven face editing tools are gaining popularity, which has significantly increased user demand for personalized portrait generation and social sharing. However, current editing methods often preserve identity features, making the edited images still susceptible to tracking by malicious FR systems. Thus, this paper proposes Flux-Guard, a privacy-preserving face editing framework based on adversarial attacks, which integrates face editing and privacy protection within a unified generative process. Specifically, we design a flow trajectory control method to align semantic manipulations with the generative process and introduce latent-space adversarial optimization with an adaptive perceptual-loss-driven weighting strategy, dynamically adjusting adversarial strength to maximize attack effectiveness while preserving visual quality.
@@ -15,3 +16,5 @@ Download the Flux model from [here](https://huggingface.co/black-forest-labs/FLU
 ```bash
 python Flux-Guard/src/runfluxguard.py
 ```
+
+## Citation
